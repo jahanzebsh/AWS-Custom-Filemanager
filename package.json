@@ -1,0 +1,19 @@
+{
+  "name": "aws_customfilemanager",
+  "version": "1.0.0",
+  "description": "aws custom filemanger for browser ",
+  "main": "/src/modal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jahanzeb shah <zebnaqwi@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "path-browserify": "^1.0.1",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1387.0"
+  }
+}

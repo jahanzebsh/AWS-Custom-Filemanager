@@ -1,0 +1,25 @@
+<script src="bundle.js"></script>
+    <script src="PhotoViewer.js"></script>
+   
+    <script>listAlbums();</script>
+    <script>
+      function getHtml(template) {
+         return template.join('\n');
+      }
+      listAlbums();
+      viewAlbum("");
+   </script>
+
+<link rel="stylesheet" href="modal.css">
+    <div class="modal-container">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <h1>Photo Album Viewer</h1>
+ 
+            <div id="app" style="min-height: 600px;min-width: 100%;max-height: 600px;overflow: auto;"><p> No Files found </p></div>
+                <div id="viewer" />
+
+                    <!-- Modal content here -->
+                    <button class="close-button">Close</button>
+  </div>
+</div>
