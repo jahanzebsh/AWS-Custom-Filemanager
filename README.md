@@ -6,6 +6,9 @@ The AWS S3 Custom File Manager Package allows you to easily manage files and ima
 
 1. Install the package using npm:
 
+
+
+
    ```bash
    npm install aws-s3-custom-file-manager
 
