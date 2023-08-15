@@ -9,7 +9,7 @@ The AWS S3 Custom File Manager Package allows you to easily manage files and ima
 
 
 
-   ```bash
+
    npm install aws-s3-custom-file-manager
 
 
@@ -25,7 +25,7 @@ var IdentityPoolId_='xxxx';
 
    Include the necessary JavaScript and CSS files in your HTML:
 
- ```bash
+
   <script src="aws_customfilemanager/dist/modal.bundle.js"></script>
 <link rel="stylesheet" href="aws_customfilemanager/dist/styles.css">
 
