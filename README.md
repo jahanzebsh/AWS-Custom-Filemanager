@@ -4,26 +4,7 @@ The AWS S3 Custom File Manager Package allows you to easily manage files and ima
 
 ## Installation
 
-1. Install the package using npm:
 
-
-
-
-```
-   npm install aws-s3-custom-file-manager
-```
-
-Initialize the AWS S3 Client and configure the FileManager:
-
-```
-import FileManager from "aws-s3-file-manager";
-const BUCKET_NAME_ = 'xxx';
-const REGION_ = 'xxxx';
-var albumBucketName_ = BUCKET_NAME_;
-var cloudfront_url_ = 'xxxx';
-var IdentityPoolId_='xxxx';
-```
-   
    Include the necessary JavaScript and CSS files in your HTML:
 
 ```
