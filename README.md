@@ -25,11 +25,14 @@ var IdentityPoolId_='xxxx';
 
    Include the necessary JavaScript and CSS files in your HTML:
 
-# <script src="aws_customfilemanager/dist/modal.bundle.js"></script>
-# <link rel="stylesheet" href="aws_customfilemanager/dist/styles.css">
+ ```bash
+  <script src="aws_customfilemanager/dist/modal.bundle.js"></script>
+ ```bash
+  <link rel="stylesheet" href="aws_customfilemanager/dist/styles.css">
 
 Add an HTML element to your page to trigger the file manager:
-<img class="file_mg_img" src="https://zxczczc/xczcxzc-zxczxc-Food-Side.png">
+ ```bash
+ <img class="file_mg_img" src="https://zxczczc/xczcxzc-zxczxc-Food-Side.png">
 <a href="javascript:void(0);" class="file_mg_c">Click To Change Image</a>
 
 
