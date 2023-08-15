@@ -32,8 +32,8 @@ var IdentityPoolId_='xxxx';
 Add an HTML element to your page to trigger the file manager:
 
 
- <img class="file_mg_img" src="https://zxczczc/xczcxzc-zxczxc-Food-Side.png">
-<a href="javascript:void(0);" class="file_mg_c">Click To Change Image</a>
+ <!-- <img class="file_mg_img" src="https://zxczczc/xczcxzc-zxczxc-Food-Side.png"> -->
+<!-- <a href="javascript:void(0);" class="file_mg_c">Click To Change Image</a> -->
 
 
 Contributing
