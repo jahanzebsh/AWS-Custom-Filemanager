@@ -1,0 +1,61 @@
+ .row{ overflow: auto; margin: 10px 10px; justify-content: center; display: flex; flex-wrap: wrap; } .upload-btn-wrapper { position: relative; overflow: hidden; display: inline-block; } .btn { border: 2px solid gray; color: gray; background-color: white; padding: 8px 20px; border-radius: 8px; font-size: 20px; font-weight: bold; } .upload-btn-wrapper input[type=file] { font-size: 100px; position: absolute; left: 0; top: 0; opacity: 0; } .modal-container { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9999; } .modal-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); } .modal-content { background-color: #fff; padding: 20px; width: 100%; overflow: auto; min-height: 80vh; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; } .modal { display: none; width: 80%; justify-content: center; align-items: center; margin: 0 auto; z-index: 998; border: 3px solid #888; -webkit-transition: all 0.25s ease-in-out; -moz-transition: all 0.25s ease-in-out; -o-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; } .blur{ -webkit-filter: blur(5px); -moz-filter: blur(5px); -o-filter: blur(5px); -ms-filter: blur(5px); filter: blur(5px); } /* CSS for the modal and photo viewer */ .modal-container { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9999; } .modal-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgb(164 13 13 / 50%); } .modal-content { background-color: #f7f8f9; padding: 20px; width: 100%; overflow: auto; min-height: 80vh; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; } .modal { display: none; width: 95%; justify-content: center; align-items: center; margin: 0 auto; z-index: 998; border: 3px solid #888; -webkit-transition: all 0.25s ease-in-out; -moz-transition: all 0.25s ease-in-out; -o-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; } /* Styling for the photo grid */ .fl_img { border: 1px solid black; margin: 0px 20px; border: 1px solid black; margin: 0px 20px; width:auto; max-width: 300px; height: 200px; cursor:pointer; } /* Styling for buttons */ .upload-btn-wrapper { position: relative; overflow: hidden; display: inline-block; } .btn { border: 2px solid gray; color: gray; background-color: white; padding: 8px 20px; border-radius: 8px; font-size: 20px; font-weight: bold; } .upload-btn-wrapper input[type="file"] { font-size: 100px; position: absolute; left: 0; top: 0; opacity: 0; } /* Styling for the delete button */ .cros_delete { cursor: pointer; color: red; font-weight: bold; } #photoupload { padding: 10px 20px; color: #1c1a1a; border: none; border-radius: 20px; font-size: 14px; font-weight: bold; cursor: pointer; } /* Styling for the add photo button */ .addphoto { background-color: #4caf50; color: white; padding: 5px; border: none; border-radius: 12px; font-size: 14px; font-weight: bold; cursor: pointer; } /* Styling for the back to albums button */ .bck_to_albums { margin: 22px; background-color: #f44336; color: white; padding: 3px 8px; border: none; border-radius: 8px; font-size: 11px; font-weight: bold; height: 24px; cursor: pointer; } .upload_ { display: flex; margin: 20px; background-color: #696969; border-radius: 20px; height: 41px; } .hdr{ display:flex; } .close-button { position: absolute; top: 10px; /* Adjust the top position as needed */ right: 10px; /* Adjust the right position as needed */ width: 30px; height: 30px; // background-image: url('path-to-your-icon-image.png'); background-size: cover; /* Adjust the background size as needed */ background-repeat: no-repeat; border: none; cursor: pointer; } div#app { background-color: #dddddd; min-height: 600px; min-width: 100%;max-height: 600px;overflow: auto; } .img_div { padding-right: 10px; justify-content: center; align-items: center; text-align: center; margin: 15px; } .search-icon { display: flex; align-items: center; position: relative; } .search_icon{ height: 20px; position: absolute; right: 0; top: 50%; transform: translateY(-50%); cursor:pointer; } #search_ { width: 100%; border: 1px solid black; border-radius: 50px; background-color: white; font-size: 16px; font-weight: 400; color: var(--black); text-align: left; padding: 0px 20px; margin: auto; display: block; } .subfolder{ cursor:pointer; } #viewer { background-color: #dddddd; max-height: 100%; height: 100%; } #viewer ul{ list-style: none; display: block; margin: 0px; padding: 0; } #viewer li{ border-bottom: 1px solid; margin: 7px; } #va_btn.selected { border: 1px solid blue!important; } #viewer .va_btn{ cursor:pointer; } #viewer img{ height: 24px; width: auto; } #myModal { display: none; background-color: #dddddd; position: absolute; top: 60px; right: 31px; }
+.row{justify-content: center;overflow: auto;display: flex;margin: 10px 10px;}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.fl_img{
+  border: 1px solid black;
+}
+/* Modal container */
+.modal-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+/* Modal overlay */
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Modal content */
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+}
